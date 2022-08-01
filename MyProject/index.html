@@ -132,30 +132,42 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section id="signUp">
             <h2>Faça sua inscrição</h2>
 
             <form action="">
-                <input type="text" placeholder="Nome completo" />
-                <input type="email" placeholder="Email" />
+                <div>
+                    <input type="text" placeholder="Nome completo" />
+                </div>
 
-                <label for="ctrl-platform">Qual sua plataforma preferida?</label>
+                <div>
+                    <input type="email" placeholder="Email" />
+                </div>
 
-                <input type="radio" name="platform" id="ctrl-platform-1" />
-                <label for="ctrl-platform-1">PC</label>
-                <input type="radio" name="platform" id="ctrl-platform-2" />
-                <label for="ctrl-platform-2">Xbox</label>
-                <input type="radio" name="platform" id="ctrl-platform-3" />
-                <label for="ctrl-platform-3">Playstation</label>
+                <div>
+                    <label for="ctrl-platform">Qual sua plataforma preferida?</label>
+                    <div id="ctrl-platform">
+                        <input type="radio" name="platform" id="ctrl-platform-1" />
+                        <label for="ctrl-platform-1">PC</label>
+                        <input type="radio" name="platform" id="ctrl-platform-2" />
+                        <label for="ctrl-platform-2">Xbox</label>
+                        <input type="radio" name="platform" id="ctrl-platform-3" />
+                        <label for="ctrl-platform-3">Playstation</label>
+                    </div>
+                </div>
 
-                <input type="checkbox" />
-                <label for="">Desejo receber novidades.</label>
+                <div>
+                    <input type="checkbox" />
+                    <label for="newsletter">Desejo receber novidades.</label>
+                </div>
 
-                <input type="submit" value="Enviar" />
-                <input type="reset" value="Limpar" />
+                <div>
+                    <input type="submit" value="Enviar" />
+                    <input type="reset" value="Limpar" />
+                </div>
+
             </form>
         </section>
     </main>
